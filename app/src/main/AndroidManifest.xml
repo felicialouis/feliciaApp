@@ -13,10 +13,13 @@
         android:theme="@style/Theme.FeliciaApp"
         tools:targetApi="31">
         <activity
+            android:name=".feliciaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".feliciaActivity"
+            android:name=".KalkulatorActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.FeliciaApp">
